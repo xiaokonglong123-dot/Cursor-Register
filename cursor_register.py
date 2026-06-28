@@ -9,7 +9,7 @@ from datetime import datetime
 from omegaconf import OmegaConf, DictConfig
 from DrissionPage import ChromiumOptions, Chromium
 
-from temp_mails import Tempmail_io, Guerillamail_com
+# from temp_mails import Tempmail_io, Guerillamail_com
 from helper.cursor_register import CursorRegister
 from helper.email import *
 
