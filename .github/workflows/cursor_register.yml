@@ -28,6 +28,7 @@ jobs:
     env:
       HIDE_ACCOUNT_INFO: "true"
       ENABLE_BROWSER_LOG: "false"
+      ENABLE_HEADLESS: "true" 
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v5
